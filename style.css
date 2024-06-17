@@ -57,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 60vh;
-    background: url(img/header1.jpg) no-repeat center;
+    background: url(img/header.jpg) no-repeat center;
     background-size: cover;
     color: #fff;
     padding: 0 20px;
@@ -66,7 +66,7 @@ body {
 
 .title {
     margin-bottom: 40px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     font-family: cursive;
@@ -78,16 +78,6 @@ p {
     padding: 0 20px;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #df7878;
-    color: #fff;
-    text-decoration: none;
-    background: #df7878;
-    transition: background 0.3s;
-}
 
 .btn:hover {
     background: none;
@@ -110,62 +100,14 @@ p {
 .sau {
     background: rgb(28, 29, 29);
     color: #fff;
-    display: grid;
-   grid-column: 1,3;
 }
 
-.box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.box {
-    height: 11rem;
-    width: 16rem;
-    background: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.5);
-    margin: 2rem;
-    padding: 1rem;
-}
-
-.box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #a84171;
-    font-size: 2rem;
-    margin: 1rem 0;
-}
-
-.box h3 {
-    font-size: 20px;
-    color: #a84171;
-}
-
-.box p {
-    font-size: 16px;
-    padding: 0 15px;
-}
 
 .about {
     background: #101010;
     color: #fff;
 }
 
-.price {
-    background: url(img/costos.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
 
 .contain {
     background: #171717;
@@ -206,24 +148,14 @@ p {
     margin-top: 20px;
 }
 
-.paragraph{
-    font-family: 'Courier New', Courier, monospace;
+.list{
     font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
     text-align: justify;
 }
 
-.list{
-font-family: 'Courier New', Courier, monospace;
-font-size: 150%;
-text-decoration: none;
-text-align: justify;
-}
-footer {
-    background-color: #d64193;
-    color: #fff;
+.title-about{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 175%;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
